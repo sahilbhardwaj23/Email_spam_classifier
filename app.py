@@ -14,7 +14,7 @@ nltk.download('wordnet')
 nltk.download('punkt')
 
 # Load the pre-trained model
-model_file_path = 'random_forest__baseline_model.pkl'  # Change this to your actual file path
+model_file_path = 'random_forest__best_model.pkl'  # Change this to your actual file path
 with open(model_file_path, 'rb') as model_file:
     model = pickle.load(model_file)
 
